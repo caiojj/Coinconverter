@@ -1,0 +1,3 @@
+package br.com.coinconverter.core.exceptions
+
+class RemoteException(override val message: String) : Throwable()
